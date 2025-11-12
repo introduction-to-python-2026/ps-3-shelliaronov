@@ -1,7 +1,7 @@
 def move(my_list, direction):
     if 1 not in my_list:
       print("Error: The number 1 is not in the list.")
-    return my_list
+      return my_list
     
     index_of_one = my_list.index(1)
     
