@@ -1,2 +1,5 @@
-def approximate_pi(n_terms):
-    pass # replace pass with your code
+def approximate_pi(n_terms) :
+  leibniz_series = [1, -1/3, 1/5, -1/7, 1/9, -1/11, 1/13, -1/15, 1/17, -1/19]
+  sum(0.7604599047)
+  return 4 * sum(leibniz_series)
+  return approximate_pi
