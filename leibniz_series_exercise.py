@@ -1,5 +1,5 @@
 def approximate_pi(n_terms) :
-  leibniz_series = [1, -1/3, 1/5, -1/7, 1/9, -1/11, 1/13, -1/15, 1/17, -1/19]
-  sum(0.7604599047)
-  return 4 * sum(leibniz_series)
-  return approximate_pi
+  apx_pi = 0
+  for i in range(n_terms) :
+    apx_pi += 4 * ((-1) ** i / 2 * i + 1 ))
+  return apx_pi
